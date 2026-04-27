@@ -1,0 +1,24 @@
+[general]
+name=AutoTracer
+qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+description=Converts scanned, georeferenced raster maps into clean line vector layers using binarization, thresholding, smoothing, skeletonization, and vectorization.
+version=1.0.0
+author=Pradip, Suchita Mitra
+email=mitvhari44@gmail.com
+
+about=This plugin automates the conversion of scanned raster maps into vector line features through a multi-step pipeline:
+    1. Binarization (1-bit black & white conversion)
+    2. Thresholding (contrast adjustment)
+    3. Smoothing (noise removal via Median/Gaussian filter)
+    4. Skeletonization (single-pixel line thinning)
+    5. Vectorization (raster lines to vector paths)
+
+tracker=https://github.com/Pradipkraze/autotracer
+repository=https://github.com/Pradipkraze/autotracer
+tags=raster, vector, map, lines, conversion, skeletonization, vectorization, digitizing
+homepage=https://github.com/Pradipkraze
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
