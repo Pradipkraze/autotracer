@@ -1,5 +1,7 @@
 # autotracer
 Open OSGEO CLI and install <pip install pip install scikit-image opencv-python>
+
+
 Converts scanned, georeferenced raster maps into clean line vector
 <img width="969" height="672" alt="image" src="https://github.com/user-attachments/assets/733aea1e-a2c6-4995-8451-48b4c3c41d2e" />
 
